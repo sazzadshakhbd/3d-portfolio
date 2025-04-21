@@ -12,3 +12,12 @@ A. Create React JS Projects
 5. Updated unused files [App.jsx - remove all code, App.css - remove all code]
 6. install vs code extension [Modern React Snippets]
 7. npm install gsap @gsap/react three @react-three/fiber @react-three/drei @react-three/postprocessing
+
+B. Install and configure TailwindCSS v4
+----------------------------------------
+1. npm install tailwindcss @tailwindcss/vite
+2. Go to -> https://tailwindcss.com/docs/installation/using-vite
+3. copy vite.config.ts codes and paste our vite.config.js
+4. extra add react configuration - import react from '@vitejs/plugin-react', plugins: [react(),],
+5. copy this code and paste our index.css file [@import "tailwindcss";]
+6. Write all based style code here
