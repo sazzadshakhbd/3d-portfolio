@@ -1,3 +1,5 @@
+A. Create React JS Projects
+-------------------------
 1. npm create vite@latest ./
     a) Y
     b) Remove existing files and continue
@@ -9,3 +11,4 @@
 4. Remove unused files and folders [deleted assets folder, App.css in src folder ]
 5. Updated unused files [App.jsx - remove all code, App.css - remove all code]
 6. install vs code extension [Modern React Snippets]
+7. npm install gsap @gsap/react three @react-three/fiber @react-three/drei @react-three/postprocessing
