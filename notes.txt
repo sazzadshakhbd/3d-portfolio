@@ -21,3 +21,13 @@ B. Install and configure TailwindCSS v4
 4. extra add react configuration - import react from '@vitejs/plugin-react', plugins: [react(),],
 5. copy this code and paste our index.css file [@import "tailwindcss";]
 6. Write all based style code here
+7. class add for tailwind app.jsx and check class work or not
+
+C. Hero Text & Layout
+---------------------
+1. Create components and sections folder in src folder
+2. Create Hero.jsx in sections folder and run "rafce"
+3. Add Hero.jsx component link in our app.jsx file & ready code for Hero.jsx
+4. Create constants folder in src and create index.js file and cut [const words] in our Hero.jsx file and paste this file constants>index.js file
+5. Create a button component in component folder
+
