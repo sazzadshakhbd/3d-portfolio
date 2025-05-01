@@ -31,3 +31,15 @@ C. Hero Text & Layout
 4. Create constants folder in src and create index.js file and cut [const words] in our Hero.jsx file and paste this file constants>index.js file
 5. Create a button component in component folder
 
+D. Hero 3D Model
+----------------
+1. Create HeroModels component in components folder and create HeroExperience.jsx and type rafce
+2. What is GLB file? [A GLB is a file format that allows us to render 3d scenes and models]
+3. This is a GLB models website [sketchfab.com]
+4. npm i react-responsive
+5. 3d model collection: https://sketchfab.com/3d-models/my-room-109790fce06a4ff3b4b96c2c2cfcc33e
+6. Install Blender for your computer and learn this [due to optimize your GLB file - unused triangles]
+7. Go to our using terminal public > models > npx gltfjsx optimized-room.glb command run
+8. Generate optimized-room.jsx file and move this file components > HeroModels and rename this file room and change function name is Room
+9. Check the path right or wrong [/models/optimized-room.glb]
+
